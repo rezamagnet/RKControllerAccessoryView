@@ -10,6 +10,12 @@ Add custom view above iOS keyboard
 ```swift
 import RKControllerAccessoryView
 
-contentView = UIView()
-bottomMarginSpace = 20 // (default is 20)
+class ViewController: BaseInputViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        contentView = UIView()
+        bottomMarginSpace = 20 // (default is 20)
+    }
+}
 ```
