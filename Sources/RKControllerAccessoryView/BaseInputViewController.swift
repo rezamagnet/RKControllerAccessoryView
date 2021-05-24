@@ -24,7 +24,7 @@ open class BaseInputViewController: UIViewController {
     }
 
     private lazy var accessoryView: AccessoryView = {
-        let view = AccessoryView(frame: .init(x: .zero, y: .zero, width: view.bounds.width, height: .zero))
+        let view = AccessoryView(frame: .init(x: .zero, y: .zero, width: self.view.bounds.width, height: .zero))
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         return view
     }()
