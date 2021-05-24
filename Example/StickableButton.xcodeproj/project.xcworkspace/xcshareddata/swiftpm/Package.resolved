@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RKControllerAccessoryView",
+        "repositoryURL": "https://github.com/rezamagnet/RKControllerAccessoryView",
+        "state": {
+          "branch": null,
+          "revision": "371db474f9cbfa8df16eae7ea60a051c3b3c9fbc",
+          "version": "0.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB30A3E3265B2901003A1E1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30A3E2265B2901003A1E1F /* ViewController.swift */; };
+		BB30A3E6265B34F3003A1E1F /* RKControllerAccessoryView in Frameworks */ = {isa = PBXBuildFile; productRef = BB30A3E5265B34F3003A1E1F /* RKControllerAccessoryView */; };
+		BB83B0A12659D8F0002D6885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83B0A02659D8F0002D6885 /* AppDelegate.swift */; };
+		BB83B0A32659D8F0002D6885 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83B0A22659D8F0002D6885 /* SceneDelegate.swift */; };
+		BB83B0A82659D8F0002D6885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB83B0A62659D8F0002D6885 /* Main.storyboard */; };
+		BB83B0AA2659D8F3002D6885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB83B0A92659D8F3002D6885 /* Assets.xcassets */; };
+		BB83B0AD2659D8F3002D6885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB83B0AB2659D8F3002D6885 /* LaunchScreen.storyboard */; };
+		BB83B0B52659D910002D6885 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83B0B42659D910002D6885 /* AppButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB30A3E2265B2901003A1E1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB83B09D2659D8F0002D6885 /* StickableButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickableButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB83B0A02659D8F0002D6885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB83B0A22659D8F0002D6885 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB83B0A72659D8F0002D6885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB83B0A92659D8F3002D6885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB83B0AC2659D8F3002D6885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB83B0AE2659D8F3002D6885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB83B0B42659D910002D6885 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB83B09A2659D8F0002D6885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB30A3E6265B34F3003A1E1F /* RKControllerAccessoryView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB83B0942659D8F0002D6885 = {
+			isa = PBXGroup;
+			children = (
+				BB83B09F2659D8F0002D6885 /* StickableButton */,
+				BB83B09E2659D8F0002D6885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB83B09E2659D8F0002D6885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB83B09D2659D8F0002D6885 /* StickableButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB83B09F2659D8F0002D6885 /* StickableButton */ = {
+			isa = PBXGroup;
+			children = (
+				BB83B0A02659D8F0002D6885 /* AppDelegate.swift */,
+				BB83B0A22659D8F0002D6885 /* SceneDelegate.swift */,
+				BB83B0B42659D910002D6885 /* AppButton.swift */,
+				BB30A3E2265B2901003A1E1F /* ViewController.swift */,
+				BB83B0A62659D8F0002D6885 /* Main.storyboard */,
+				BB83B0A92659D8F3002D6885 /* Assets.xcassets */,
+				BB83B0AB2659D8F3002D6885 /* LaunchScreen.storyboard */,
+				BB83B0AE2659D8F3002D6885 /* Info.plist */,
+			);
+			path = StickableButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB83B09C2659D8F0002D6885 /* StickableButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB83B0B12659D8F3002D6885 /* Build configuration list for PBXNativeTarget "StickableButton" */;
+			buildPhases = (
+				BB83B0992659D8F0002D6885 /* Sources */,
+				BB83B09A2659D8F0002D6885 /* Frameworks */,
+				BB83B09B2659D8F0002D6885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickableButton;
+			packageProductDependencies = (
+				BB30A3E5265B34F3003A1E1F /* RKControllerAccessoryView */,
+			);
+			productName = StickableButton;
+			productReference = BB83B09D2659D8F0002D6885 /* StickableButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB83B0952659D8F0002D6885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BB83B09C2659D8F0002D6885 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BB83B0982659D8F0002D6885 /* Build configuration list for PBXProject "StickableButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB83B0942659D8F0002D6885;
+			packageReferences = (
+				BB30A3E4265B34F3003A1E1F /* XCRemoteSwiftPackageReference "RKControllerAccessoryView" */,
+			);
+			productRefGroup = BB83B09E2659D8F0002D6885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB83B09C2659D8F0002D6885 /* StickableButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB83B09B2659D8F0002D6885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB83B0AD2659D8F3002D6885 /* LaunchScreen.storyboard in Resources */,
+				BB83B0AA2659D8F3002D6885 /* Assets.xcassets in Resources */,
+				BB83B0A82659D8F0002D6885 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB83B0992659D8F0002D6885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB30A3E3265B2901003A1E1F /* ViewController.swift in Sources */,
+				BB83B0A12659D8F0002D6885 /* AppDelegate.swift in Sources */,
+				BB83B0A32659D8F0002D6885 /* SceneDelegate.swift in Sources */,
+				BB83B0B52659D910002D6885 /* AppButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB83B0A62659D8F0002D6885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB83B0A72659D8F0002D6885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB83B0AB2659D8F3002D6885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB83B0AC2659D8F3002D6885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB83B0AF2659D8F3002D6885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB83B0B02659D8F3002D6885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB83B0B22659D8F3002D6885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6RS859928;
+				INFOPLIST_FILE = StickableButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.StickableButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB83B0B32659D8F3002D6885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6RS859928;
+				INFOPLIST_FILE = StickableButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.StickableButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB83B0982659D8F0002D6885 /* Build configuration list for PBXProject "StickableButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB83B0AF2659D8F3002D6885 /* Debug */,
+				BB83B0B02659D8F3002D6885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB83B0B12659D8F3002D6885 /* Build configuration list for PBXNativeTarget "StickableButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB83B0B22659D8F3002D6885 /* Debug */,
+				BB83B0B32659D8F3002D6885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB30A3E4265B34F3003A1E1F /* XCRemoteSwiftPackageReference "RKControllerAccessoryView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rezamagnet/RKControllerAccessoryView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB30A3E5265B34F3003A1E1F /* RKControllerAccessoryView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB30A3E4265B34F3003A1E1F /* XCRemoteSwiftPackageReference "RKControllerAccessoryView" */;
+			productName = RKControllerAccessoryView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BB83B0952659D8F0002D6885 /* Project object */;
+}
