@@ -36,10 +36,3 @@ open class BaseInputViewController: UIViewController {
     
     open override var inputAccessoryView: UIView? { accessoryView }
 }
-
-extension BaseInputViewController: UITextFieldDelegate {
-    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
-    }
-}
