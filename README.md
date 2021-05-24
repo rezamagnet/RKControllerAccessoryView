@@ -1,7 +1,7 @@
 # RKControllerAccessoryView
 
 <p align="center">
-<img src="Images/demo.png" alt="RKControllerAccessoryView" title="RKControllerAccessoryView" width="473" height="1024"/>
+<img src="Images/demo.png" alt="RKControllerAccessoryView" title="RKControllerAccessoryView" width="316" height="684"/>
 </p>
 
 Add custom view above iOS keyboard
