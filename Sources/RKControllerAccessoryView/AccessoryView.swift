@@ -9,11 +9,26 @@ import UIKit
 
 class AccessoryView: UIView {
     
+    var hasSafeAreaInset = Bool() {
+        didSet {
+            removeConstraint(stackViewBottomConstraint)
+            
+            if hasSafeAreaInset {
+                stackViewBottomConstraint = stackView.bottomAnchor.constraint(equalTo: layoutMarginsGuide.bottomAnchor)
+            } else {
+                stackViewBottomConstraint = stackView.bottomAnchor.constraint(equalTo: bottomAnchor)
+            }
+            
+            stackViewBottomConstraint.isActive = true
+        }
+    }
+    
     var contentViewBottomSpace: CGFloat = 20 {
         didSet {
             stackViewBottomConstraint.constant = bottomInset
         }
     }
+    
     var stackView = UIStackView()
     private lazy var stackViewBottomConstraint = stackView.bottomAnchor.constraint(equalTo: layoutMarginsGuide.bottomAnchor)
 
@@ -79,5 +94,4 @@ class AccessoryView: UIView {
             return -contentViewBottomSpace
         }
     }
-    
 }
