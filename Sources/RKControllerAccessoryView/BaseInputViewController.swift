@@ -1,6 +1,6 @@
 //
 //  BaseInputViewController.swift
-//  StickableButton
+//  RKControllerAccessoryView
 //
 //  Created by Reza Khonsari on 5/23/21.
 //
